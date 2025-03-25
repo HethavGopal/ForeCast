@@ -2,8 +2,9 @@ from flask import Flask, request, jsonify
 import joblib
 import pandas as pd
 from graphingSalesJson import postTrainData
-from salesmodel2 import finalize_dataline
 from forecasting import futureForecast
+from salesmodel2 import finalize_dataline
+
 app = Flask(__name__)
 
 # Load the saved XGBoost model
