@@ -6,8 +6,9 @@ from tensorflow.keras.preprocessing.sequence import TimeseriesGenerator
 from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, LSTM, Dropout
-from statsmodels.tools.eval_measures import rmse
 from keras.models import load_model
+from statsmodels.tools.eval_measures import rmse
+
 
 
 def futureForecast():
