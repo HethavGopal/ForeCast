@@ -12,8 +12,8 @@ from keras.models import load_model
 
 def futureForecast():
     model = load_model(
-        'D:\Sahil\\react+flask\\flask-server\\LSTM_model4.keras')
-    df = pd.read_csv('D:\Sahil\\react+flask\\flask-server\\Adidas_Sales.csv')
+        'LSTM_model4.keras')
+    df = pd.read_csv('Adidas_Sales.csv')
     X = df[['Invoice Date', 'Total Sales']]
 
     # Data preprocessing

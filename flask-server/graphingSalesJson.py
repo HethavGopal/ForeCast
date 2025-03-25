@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 def postTrainData():
     postdf = pd.read_csv(
-        'D:\Sahil\\react+flask\\flask-server\\Adidas_Sales.csv')
+        'Adidas_Sales.csv')
     postX = postdf[['Invoice Date', 'Total Sales']]
     postX['Invoice Date'] = pd.to_datetime(postX['Invoice Date'])
     postX = postX.sort_values(by="Invoice Date")

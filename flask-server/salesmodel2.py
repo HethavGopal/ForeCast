@@ -9,7 +9,7 @@ from sklearn.metrics import r2_score, mean_squared_error
 
 # ///////////////prepare traing data////////////////////
 
-df = pd.read_csv('D:\Sahil\\react+flask\\flask-server\\Adidas.csv')
+df = pd.read_csv('Adidas.csv')
 
 
 # df.drop("Invoice Date", inplace=True, axis=1)

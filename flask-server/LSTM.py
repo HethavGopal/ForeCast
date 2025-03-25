@@ -15,7 +15,7 @@ tf.random.set_seed(170424)
 # from keras.callbacks import Callback
 # Load data
 
-df = pd.read_csv('D:\Sahil\\react+flask\\flask-server\\Adidas_Sales.csv')
+df = pd.read_csv('Adidas_Sales.csv')
 X = df[['Invoice Date', 'Total Sales']]
 
 # Data preprocessing

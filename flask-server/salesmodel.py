@@ -8,7 +8,7 @@ import joblib
 import xgboost as xgb
 from sklearn.metrics import r2_score, mean_squared_error
 
-df = pd.read_csv('D:\Sahil\\react+flask\\flask-server\\sales_prediction.csv')
+df = pd.read_csv('sales_prediction.csv')
 X = df.drop(columns=['Item_Outlet_Sales'])
 y = df['Item_Outlet_Sales']
 SEED = 42
