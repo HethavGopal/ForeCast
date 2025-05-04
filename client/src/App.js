@@ -13,7 +13,7 @@ function App() {
         {path:"/lstm",
         element:<ForecastPage/>},
         {path:"/xgb",
-        element:<Predict/>},
+        element:<Predict/>},    
         {path:"/",
         element:<Home/>},
         {path:"/signup",
